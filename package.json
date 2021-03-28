@@ -1,0 +1,23 @@
+{
+  "name": "jen-do",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phamvanlong15/nodejs-jenkins-docker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phamvanlong15/nodejs-jenkins-docker/issues"
+  },
+  "homepage": "https://github.com/phamvanlong15/nodejs-jenkins-docker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
