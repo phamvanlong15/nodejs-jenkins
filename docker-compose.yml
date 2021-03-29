@@ -1,0 +1,7 @@
+version: "3.7"
+services: 
+  app: 
+    image: learning-docker/nodejs:v1
+    ports: 
+      - "5566:5566"
+    restart: unless-stopped
