@@ -1,4 +1,5 @@
-FROM jenkins
-USER root
-
-RUN mkdir -d tamp
+FROM node
+WORKDIR /app
+COPY . .
+RUN npm install
+CMD ["npm", "start"]
